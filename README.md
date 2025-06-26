@@ -58,12 +58,12 @@ npm run dev
 The app will be available at http://localhost:5173
 
 🎯 Technical Requirements Covered
-✅ 1. React App Setup (5 marks)
+✅ 1. React App Setup
 Created with Vite.
 
 Runs with no errors.
 
-✅ 2. Components (10 marks)
+✅ 2. Components
 App
 
 Header
@@ -72,17 +72,17 @@ ToDoList
 
 ToDoItem
 
-✅ 3. State and Props (20 marks)
+✅ 3. State and Props
 App holds main task state.
 
 Props passed from App → ToDoList → ToDoItem.
 
-✅ 4. Lists (10 marks)
+✅ 4. Lists
 .map() used in ToDoList to render all items.
 
 Each item has a unique key (id).
 
-✅ 5. Event Handling (40 marks)
+✅ 5. Event Handling
 Add new task
 
 Delete task
@@ -91,11 +91,6 @@ Edit task
 
 Mark complete/undo complete
 
-✅ 6. Styling (5 marks)
+✅ 6. Styling
 Tailwind CSS used for styling and layout.
 
-📷 Screenshots
-(Optional – add a screenshot of your app here)
-
-🔗 Submission
-GitHub Repo: Your GitHub Link Here
