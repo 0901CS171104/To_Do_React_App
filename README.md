@@ -1,12 +1,101 @@
-# React + Vite
+A simple and responsive To-Do List built using React (Vite) and Tailwind CSS. This application allows users to add, delete, edit, and mark tasks as completed.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔧 Features
+✅ Add new tasks
+✅ Edit existing tasks
+✅ Delete tasks
+✅ Mark tasks as completed or undo
+✅ Fully responsive UI with Tailwind CSS
+✅ Built using functional components, props, and state
 
-Currently, two official plugins are available:
+📁 Folder Structure
+pgsql
+Copy
+Edit
+to-do-list/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── ToDoList.jsx
+│   │   └── ToDoItem.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+🚀 Getting Started
+Prerequisites
+Node.js (v16 or later)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm or yarn
 
-## Expanding the ESLint configuration
+Installation
+Clone the repository:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+bash
+Copy
+Edit
+git clone https://github.com/YOUR-USERNAME/To_Do_React_App.git
+Navigate to the project folder:
+
+bash
+Copy
+Edit
+cd To_Do_React_App
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+The app will be available at http://localhost:5173
+
+🎯 Technical Requirements Covered
+✅ 1. React App Setup (5 marks)
+Created with Vite.
+
+Runs with no errors.
+
+✅ 2. Components (10 marks)
+App
+
+Header
+
+ToDoList
+
+ToDoItem
+
+✅ 3. State and Props (20 marks)
+App holds main task state.
+
+Props passed from App → ToDoList → ToDoItem.
+
+✅ 4. Lists (10 marks)
+.map() used in ToDoList to render all items.
+
+Each item has a unique key (id).
+
+✅ 5. Event Handling (40 marks)
+Add new task
+
+Delete task
+
+Edit task
+
+Mark complete/undo complete
+
+✅ 6. Styling (5 marks)
+Tailwind CSS used for styling and layout.
+
+📷 Screenshots
+(Optional – add a screenshot of your app here)
+
+🔗 Submission
+GitHub Repo: Your GitHub Link Here
